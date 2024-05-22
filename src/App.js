@@ -4,6 +4,7 @@ import './App.css';
 import Subscribe from './components/states';
 import Event_fuc from './components/event_on_func_comp';
 import Event_On_Class from './components/event_on_class';
+import Event_Binding from './components/event_binding';
 //import Hello from './components/func_compionents';
   // if we use arrow function we impoert as follow
 // import {Hello} from './components/func_compionents';
@@ -34,7 +35,9 @@ function App() {
 
 {/* <Event_fuc />  */}
 
-<Event_On_Class />
+{/* <Event_On_Class /> */}
+
+<Event_Binding />
 </div>
   );
 }
