@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 //import FullName from './components/props';
 import Subscribe from './components/states';
+import Event_fuc from './components/event_on_func_comp';
+import Event_On_Class from './components/event_on_class';
 //import Hello from './components/func_compionents';
   // if we use arrow function we impoert as follow
 // import {Hello} from './components/func_compionents';
@@ -11,9 +13,13 @@ function App() {
   return (
 <div className='App'>
   {/* <Hello></Hello>  also posible*/}
+
 {/* <Hello />
 <Hi /> */}
+
 {/* <WellCome /> */}
+
+
 {/* <FullName name="abebe" Age = "28"> 
 <p>this first person </p>
 </FullName>
@@ -23,7 +29,12 @@ function App() {
 <FullName name ="roba" Age = "26">
 <button>click me</button>
 </FullName> */}
-<Subscribe /> 
+
+{/* <Subscribe />  */}
+
+{/* <Event_fuc />  */}
+
+<Event_On_Class />
 </div>
   );
 }
