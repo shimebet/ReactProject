@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import FullName from './components/props';
+//import FullName from './components/props';
+import Subscribe from './components/states';
 //import Hello from './components/func_compionents';
-   // if we use arrow function we impoert as follow
+  // if we use arrow function we impoert as follow
 // import {Hello} from './components/func_compionents';
-// import Hi from './components/class_componenets';
-// import WellCome from "./components/jsx";
+//import Hi from './components/class_componenets';
+//import WellCome from "./components/jsx";
 function App() {
   return (
 <div className='App'>
@@ -13,7 +14,7 @@ function App() {
 {/* <Hello />
 <Hi /> */}
 {/* <WellCome /> */}
-<FullName name="abebe" Age = "28"> 
+{/* <FullName name="abebe" Age = "28"> 
 <p>this first person </p>
 </FullName>
 <FullName name= "jamala" Age = "27"> 
@@ -21,7 +22,8 @@ function App() {
 </FullName>
 <FullName name ="roba" Age = "26">
 <button>click me</button>
-</FullName>
+</FullName> */}
+<Subscribe /> 
 </div>
   );
 }
