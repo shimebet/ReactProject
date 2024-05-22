@@ -5,6 +5,7 @@ import Subscribe from './components/states';
 import Event_fuc from './components/event_on_func_comp';
 import Event_On_Class from './components/event_on_class';
 import Event_Binding from './components/event_binding';
+import Condition_Render from './components/condition_render';
 //import Hello from './components/func_compionents';
   // if we use arrow function we impoert as follow
 // import {Hello} from './components/func_compionents';
@@ -37,7 +38,10 @@ function App() {
 
 {/* <Event_On_Class /> */}
 
-<Event_Binding />
+{/* <Event_Binding /> */}
+
+{/* <Condition_Render /> */}
+
 </div>
   );
 }
