@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 function UseStateCountder() {
-    const[count,countupdater]= useState(0)
+    //array distracting
+    const [count,countupdater]= useState(0)
   return (
     <div>
       <button onClick={() =>countupdater(count+1)}>Count {count}</button>

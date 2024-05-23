@@ -23,11 +23,12 @@ import Home from './Pages/Home'
 import Contact from './Pages/contact';
 import About from './Pages/about';
 import UseStateCountder from './Hooks/useStateCountder';
+import Usestatecounter2 from './Hooks/usestatecounter2';
 function App() {
   return (
     <div className="App">
-
-<UseStateCountder />
+{/* <UseStateCountder /> */}
+<Usestatecounter2 />
 
 
 
