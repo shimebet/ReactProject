@@ -24,11 +24,13 @@ import Contact from './Pages/contact';
 import About from './Pages/about';
 import UseStateCountder from './Hooks/useStateCountder';
 import Usestatecounter2 from './Hooks/usestatecounter2';
+import UseStatewithObject from './Hooks/useStatewithObject';
 function App() {
   return (
     <div className="App">
 {/* <UseStateCountder /> */}
-<Usestatecounter2 />
+{/* <Usestatecounter2 /> */}
+<UseStatewithObject />
 
 
 
