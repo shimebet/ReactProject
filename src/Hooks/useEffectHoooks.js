@@ -6,7 +6,7 @@ function UseEffectHoooks() {
 
   useEffect(() => {
     console.log(counter);
-  }, [counter]);
+  }, []); //make array empty to avoid multiple update
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
