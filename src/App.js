@@ -12,6 +12,7 @@ import Style from './components/style';
 import Inline from './components/inline';
 import './Appstyle.css';
 import Styles from './Appstyle.module.css';
+import Form from './components/form';
 
 // import Hello from './components/func_compionents';
 // if we use arrow function we import as follows
@@ -54,8 +55,9 @@ function App() {
       {/* <Style heading={true}/> */}
       {/* <Inline /> */}
 
-      <h1 className="Regularcss">Regular Style</h1>
-      <h1 className={Styles.modulecss}>CSS Module Style</h1>
+      {/* <h1 className="Regularcss">Regular Style</h1>
+      <h1 className={Styles.modulecss}>CSS Module Style</h1> */}
+      <Form />
     </div>
   );
 }
