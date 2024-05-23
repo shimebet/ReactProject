@@ -27,14 +27,32 @@ import Usestatecounter2 from './Hooks/usestatecounter2';
 import UseStatewithObject from './Hooks/useStatewithObject';
 import UseEffectHoooks from './Hooks/useEffectHoooks';
 import DataFetchinh from './Hooks/dataFetchinh';
+import UseContextHooks from './Hooks/useContextHooks';
+
+export const OwnerContext = React.createContext()
+export const ChennalContext = React.createContext()
+
 function App() {
   return (
     <div className="App">
+<OwnerContext.Provider value={'Shime'}>
+<ChennalContext.Provider value={'Techane'}>
+
+<UseContextHooks />
+
+</ChennalContext.Provider>
+</OwnerContext.Provider>
+
+
+
+
+
 {/* <UseStateCountder /> */}
 {/* <Usestatecounter2 /> */}
 {/* <UseStatewithObject /> */}
 {/* <UseEffectHoooks /> */}
-<DataFetchinh />
+{/* <DataFetchinh /> */}
+
 
 
 

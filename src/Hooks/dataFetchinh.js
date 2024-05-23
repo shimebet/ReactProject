@@ -61,6 +61,7 @@ function DataFetching() {
                 <thead>
                     <tr>
                         <th style={thStyle}>ID</th>
+                        <th style={thStyle}>User_ID</th>
                         <th style={thStyle}>Title</th>
                         <th style={thStyle}>Body</th>
                     </tr>
@@ -69,6 +70,7 @@ function DataFetching() {
                     {currentPosts.map(post => (
                         <tr key={post.id}>
                             <td style={tdStyle}>{post.id}</td>
+                            <td style={tdStyle}>{post.userId}</td>
                             <td style={tdStyle}>{post.title}</td>
                             <td style={tdStyle}>{post.body}</td>
                         </tr>
