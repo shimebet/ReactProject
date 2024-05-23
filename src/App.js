@@ -25,13 +25,14 @@ import About from './Pages/about';
 import UseStateCountder from './Hooks/useStateCountder';
 import Usestatecounter2 from './Hooks/usestatecounter2';
 import UseStatewithObject from './Hooks/useStatewithObject';
+import UseEffectHoooks from './Hooks/useEffectHoooks';
 function App() {
   return (
     <div className="App">
 {/* <UseStateCountder /> */}
 {/* <Usestatecounter2 /> */}
-<UseStatewithObject />
-
+{/* <UseStatewithObject /> */}
+<UseEffectHoooks />
 
 
 
