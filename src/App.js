@@ -22,10 +22,17 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Pages/Home'
 import Contact from './Pages/contact';
 import About from './Pages/about';
+import UseStateCountder from './Hooks/useStateCountder';
 function App() {
   return (
     <div className="App">
-<Router>
+
+<UseStateCountder />
+
+
+
+
+{/* <Router>
   <nav>
     <Link to ='/'>home</Link>
     <Link to ='/Contact'>contact</Link>
@@ -37,7 +44,7 @@ function App() {
     <Route path = '/About' element= {<About />}/>
     <Route path = '*' element= {<h1>Page Not Found 404</h1>}/>
   </Routes>
-</Router>
+</Router> */}
 
 
       {/* <Hello></Hello>  also possible */}
