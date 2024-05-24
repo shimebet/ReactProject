@@ -28,6 +28,7 @@ import UseStatewithObject from './Hooks/useStatewithObject';
 import UseEffectHoooks from './Hooks/useEffectHoooks';
 import DataFetchinh from './Hooks/dataFetchinh';
 import UseContextHooks from './Hooks/useContextHooks';
+import Inputfocususeref from './Hooks/inputfocususeref';
 
 export const OwnerContext = React.createContext()
 export const ChennalContext = React.createContext()
@@ -35,16 +36,18 @@ export const ChennalContext = React.createContext()
 function App() {
   return (
     <div className="App">
-<OwnerContext.Provider value={'Shime'}>
+<Inputfocususeref />
+
+
+
+
+{/* <OwnerContext.Provider value={'Shime'}>
 <ChennalContext.Provider value={'Techane'}>
 
 <UseContextHooks />
 
 </ChennalContext.Provider>
-</OwnerContext.Provider>
-
-
-
+</OwnerContext.Provider> */}
 
 
 {/* <UseStateCountder /> */}
