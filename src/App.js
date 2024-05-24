@@ -32,6 +32,7 @@ import Inputfocususeref from './Hooks/inputfocususeref';
 import TimerwithRef from './Hooks/timerwithRef';
 import UseReducer from './Hooks/useReducer';
 import UseCallBack from './Hooks/useCallBack';
+import UseMemo from './Hooks/UseMemo';
 
 export const OwnerContext = React.createContext()
 export const ChennalContext = React.createContext()
@@ -42,8 +43,8 @@ function App() {
 {/* <Inputfocususeref /> */}
 {/* <TimerwithRef /> */}
 {/* <UseReducer /> */}
-<UseCallBack />
-
+{/* <UseCallBack /> */}
+<UseMemo />
 
 
 {/* <OwnerContext.Provider value={'Shime'}>
