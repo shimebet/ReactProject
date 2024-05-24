@@ -31,6 +31,7 @@ import UseContextHooks from './Hooks/useContextHooks';
 import Inputfocususeref from './Hooks/inputfocususeref';
 import TimerwithRef from './Hooks/timerwithRef';
 import UseReducer from './Hooks/useReducer';
+import UseCallBack from './Hooks/useCallBack';
 
 export const OwnerContext = React.createContext()
 export const ChennalContext = React.createContext()
@@ -40,7 +41,8 @@ function App() {
     <div className="App">
 {/* <Inputfocususeref /> */}
 {/* <TimerwithRef /> */}
-<UseReducer />
+{/* <UseReducer /> */}
+<UseCallBack />
 
 
 
