@@ -30,6 +30,7 @@ import DataFetchinh from './Hooks/dataFetchinh';
 import UseContextHooks from './Hooks/useContextHooks';
 import Inputfocususeref from './Hooks/inputfocususeref';
 import TimerwithRef from './Hooks/timerwithRef';
+import UseReducer from './Hooks/useReducer';
 
 export const OwnerContext = React.createContext()
 export const ChennalContext = React.createContext()
@@ -38,8 +39,8 @@ function App() {
   return (
     <div className="App">
 {/* <Inputfocususeref /> */}
-<TimerwithRef />
-
+{/* <TimerwithRef /> */}
+<UseReducer />
 
 
 
